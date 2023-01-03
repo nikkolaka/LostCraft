@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "lostcraft",
+  "version": "${version}",
+
+  "name": "Lost Craft",
+  "description": "Temporary",
+  "authors": [
+    "nikkolaka"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/lostcraft/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.nikkolaka.lostcraft.LostCraft"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
